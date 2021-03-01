@@ -1,0 +1,38 @@
+@import (reference) './variables.less';
+.icon-with-others {
+    margin-right: 12px;
+    font-size: @font-size;
+}
+.icon-with-others-mini {
+    margin-right: 6px;
+    font-size: @font-size;
+}
+.table-actions {
+    i {
+        .icon-with-others();
+        cursor: pointer;
+        color: @tms-notice-full-blue;
+    }
+}
+
+.single-icon {
+    font-size: @font-size;
+    margin: 0 3px;
+    color: @tms-theme;
+    cursor: pointer;
+}
+
+.icon-text-wrapper {
+    cursor: pointer;
+    color: @tms-theme;
+    i {
+        .icon-with-others();
+    }
+}
+.icon-text-wrapper-mini {
+    cursor: pointer;
+    color: @tms-theme;
+    i {
+        .icon-with-others-mini();
+    }
+}

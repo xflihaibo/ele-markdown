@@ -1,0 +1,106 @@
+
+._lodop_print_body_:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transition: all .3s;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 1000;
+}
+._lodop_print_cotainer_{
+        background-color: #fff!important;
+        background-clip: padding-box!important;
+        border: 0!important;
+        border-radius: 8px;
+        -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        pointer-events: auto;
+        // overflow: hidden;
+        &:before{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 10000px;
+            height: 10000px;
+            margin-left: -5000px;
+            margin-top: -5000px;
+            // bottom: 0;
+            // right: 0;
+            content: "";
+            transition: all .3s;
+            background-color: rgba(0, 0, 0, 0.65);
+            z-index: -1;
+        }
+    ._lodop_print_title_{
+        // padding: 16px 24px;
+        color: rgba(0,0,0,0.65) !important;
+        background: #fff!important;
+        height: 50px!important;
+        line-height: 50px!important;
+        border-bottom: 1px solid #e8e8e8!important;
+        border-radius: 4px 4px 0 0!important;
+    }
+    ._lodop_print_background_{
+        background-color: #fff!important;
+        width: auto!important;
+        border-radius: 0 0 4px 4px!important;
+        height: 190px!important;
+    }
+    ._lodop_print_confirm_{
+        color: #fff;
+        height: 24px;
+        border-radius: 12px;
+        border: 1px solid #435c71;
+        line-height: 1.5;
+        min-width: 70px;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+        -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+        box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+        outline: none;
+        background: #435c71;
+        cursor: pointer;
+        left: 267px!important;
+        top: 192px!important;
+        transition: margin-left .3s cubic-bezier(.645, .045, .355, 1);
+    }
+    ._lodop_print_cancel_{
+        height: 24px;
+        border-radius: 12px;
+        border: 1px solid #435c71;
+        line-height: 1.5;
+        color: #435c71;
+        min-width: 70px;
+        background-color: #fff;
+        // border-color: #1890ff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+        -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+        box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+        outline: none;
+        border: 1px solid #d9d9d9;
+        cursor: pointer;
+        left: 165px!important;
+        top: 192px!important;
+        transition: margin-left .3s cubic-bezier(.645, .045, .355, 1);
+    }
+    ._lodop_print_select_{
+        top: 91px!important;
+        height: 30px;
+        left: 132px!important;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    ._lodop_print_close_{
+        top: 15px!important;
+        right: 3px!important;
+        background-image: url('../image/_lodop_close_.png')!important;
+        background-size: 100% 100%!important;
+        height: 24px!important;
+        width: 24px!important;
+        outline: none;
+        border: 0;
+        cursor: pointer;
+    }
+}
